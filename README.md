@@ -1,4 +1,4 @@
-# OUTER-TECH-BLOG
+# TECH-BLOG
 
 
 User Story
