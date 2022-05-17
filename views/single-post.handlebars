@@ -1,0 +1,35 @@
+<h1 class="text-center my-4"><u>POST</u></h1>
+{{#if loggedIn}}
+  {{#if isOwnPost}}
+  <div class="text-center">
+    <a href="/dashboard/edit/{{post.id}}"><button class="btn btn-small mx-4 my-3 btn-info fw-bold">Edit Post</button></a>
+    <button class="btn btn-small mx-4 my-3 btn-danger fw-bold" id="delete-post-btn">Delete Post</button>
+  </div>
+  {{/if}}
+{{/if}}
+
+{{>post-content post}}
+
+{{#if loggedIn}}
+
+<div class="input-group w-50 mx-auto my-5">
+            <input type="text" id="new-comment" class="form-control" placeholder="Say something about this post..." aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+            <button type="button" id="post-comment" class="btn btn-dark rounded">Post Comment</button>
+        </div>
+
+{{/if}}
+
+{{#if post.Comments}}
+<h4 class="text-center my-3">Comments</h4>
+{{>comments post.Comments}}
+{{/if}}
+
+{{#if loggedIn}}
+<script src="/JS/comment.js"></script>
+{{/if}}
+
+{{#if loggedIn}}
+  {{#if isOwnPost}}
+  <script src="/JS/delete-post.js"></script>
+  {{/if}}
+{{/if}}

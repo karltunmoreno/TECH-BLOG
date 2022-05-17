@@ -1,47 +1,67 @@
-# TECH-BLOG
+# technology-blog
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-User Story
-AS A developer who writes about tech
+## Description
 
+### ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?logo=javascript&logoColor=%23F7DF1E&style=for-the-badge) ![Node.js ](https://img.shields.io/badge/node.js-6DA55F?logo=node.js&logoColor=white&style=for-the-badge) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB&style=for-the-badge) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?logo=mysql&logoColor=white&style=for-the-badge) ![Git](https://img.shields.io/badge/git-%23F05033.svg?logo=git&logoColor=white&style=for-the-badge) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?logo=github&logoColor=white&style=for-the-badge)
 
-I WANT a CMS-style blog site
-SO THAT I can publish articles, blog posts, and my thoughts and opinions
+### Utilizes Node.js and Express.js to create and manage a server for a blog post sharing webiste.
 
+### NPM Packages:
 
+- **express**: High performance framework for server-side applications
+- **express-session** and **express-session-sequelize**: For session creation and to connect/sync the sequelize database to the session.
+- **mysql2 and sequelize**: To connect the application to a MySQL database and to query that database within JavaScript rather than the MySQL command-line shell.
+- **dotenv**: For setting environment variables.
+- **bcrypt**: For password hashing.
+- **express-handlebars**: For serving dynamic HTML based on database queries.
 
-Acceptance Criteria
-GIVEN a CMS-style blog site
-WHEN I visit the site for the first time
-THEN I am presented with the homepage, which includes existing blog posts if any have been posted; navigation links for the homepage and the dashboard; and the option to log in
-WHEN I click on the homepage option
-THEN I am taken to the homepage
-WHEN I click on any other links in the navigation
-THEN I am prompted to either sign up or sign in
-WHEN I choose to sign up
-THEN I am prompted to create a username and password
-WHEN I click on the sign-up button
-THEN my user credentials are saved and I am logged into the site
-WHEN I revisit the site at a later time and choose to sign in
-THEN I am prompted to enter my username and password
-WHEN I am signed in to the site
-THEN I see navigation links for the homepage, the dashboard, and the option to log out
-WHEN I click on the homepage option in the navigation
-THEN I am taken to the homepage and presented with existing blog posts that include the post title and the date created
-WHEN I click on an existing blog post
-THEN I am presented with the post title, contents, post creator’s username, and date created for that post and have the option to leave a comment
-WHEN I enter a comment and click on the submit button while signed in
-THEN the comment is saved and the post is updated to display the comment, the comment creator’s username, and the date created
-WHEN I click on the dashboard option in the navigation
-THEN I am taken to the dashboard and presented with any blog posts I have already created and the option to add a new blog post
-WHEN I click on the button to add a new blog post
-THEN I am prompted to enter both a title and contents for my blog post
-WHEN I click on the button to create a new blog post
-THEN the title and contents of my post are saved and I am taken back to an updated dashboard with my new blog post
-WHEN I click on one of my existing posts in the dashboard
-THEN I am able to delete or update my post and taken back to an updated dashboard
-WHEN I click on the logout option in the navigation
-THEN I am signed out of the site
-WHEN I am idle on the site for more than a set time
-THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
+## Table of Contents
 
+- [Installation Instructions](#installation-instructions)
+- [Intended Use](#usage)
+- [Contribution](#contribution)
+- [Tests](#testing-instructions)
+- [Questions](#questions)
+- [License](#license)
+
+## Installation Instructions
+
+    npm install
+
+### After this repository is cloned, open your command-line in this repository's root directory to install the required dependencies denoted in the package.JSON file.
+
+    npm start
+
+### This will start the server on port 3001 for individual testing purposes. Navigate to localhost:3001/home to test the application out.
+
+    ctrl+C
+
+### Use this command to kill the server at any time.
+
+## Usage
+
+### This application and website is used for creating and sharing blog posts centered around technology. Allows users to view, edit and delete their posts and view and comment on the posts of others
+
+## Contribution
+
+### Alex Noble-James
+
+## Testing
+
+### Refer to the link below
+
+[technology-blog](https://protected-eyrie-05356.herokuapp.com/home/)
+
+## Questions
+
+### If there are any questions, including those about the use of this application, refer to the information below.
+
+### Link to the main contributor's GitHub profile: [alexnj1](https://www.github.com/alexnj1)
+
+### Link to the main contributor's email address: alexnoble143.an@gmail.com
+
+## License
+
+### This project is licensed under the MIT open source license. Visit [LICENSE](/LICENSE) for the full license documentation.
