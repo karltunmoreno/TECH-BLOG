@@ -1,12 +1,10 @@
 # technology-blog
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ## Description
 
-### ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?logo=javascript&logoColor=%23F7DF1E&style=for-the-badge) ![Node.js ](https://img.shields.io/badge/node.js-6DA55F?logo=node.js&logoColor=white&style=for-the-badge) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB&style=for-the-badge) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?logo=mysql&logoColor=white&style=for-the-badge) ![Git](https://img.shields.io/badge/git-%23F05033.svg?logo=git&logoColor=white&style=for-the-badge) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?logo=github&logoColor=white&style=for-the-badge)
-
-### Utilizes Node.js and Express.js to create and manage a server for a blog post sharing webiste.
+## Utilizes Node.js and Express.js to create and manage a server for a blog post sharing webiste.
 
 ### NPM Packages:
 
@@ -46,22 +44,4 @@
 
 ## Contribution
 
-### Alex Noble-James
-
-## Testing
-
-### Refer to the link below
-
-[technology-blog](https://protected-eyrie-05356.herokuapp.com/home/)
-
-## Questions
-
-### If there are any questions, including those about the use of this application, refer to the information below.
-
-### Link to the main contributor's GitHub profile: [alexnj1](https://www.github.com/alexnj1)
-
-### Link to the main contributor's email address: alexnoble143.an@gmail.com
-
-## License
-
-### This project is licensed under the MIT open source license. Visit [LICENSE](/LICENSE) for the full license documentation.
+### KARLTUN MORENO
