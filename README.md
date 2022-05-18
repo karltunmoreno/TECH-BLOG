@@ -15,14 +15,10 @@
 - **bcrypt**: For password hashing.
 - **express-handlebars**: For serving dynamic HTML based on database queries.
 
-## Table of Contents
 
-- [Installation Instructions](#installation-instructions)
-- [Intended Use](#usage)
-- [Contribution](#contribution)
-- [Tests](#testing-instructions)
-- [Questions](#questions)
-- [License](#license)
+LINK TO APP SITE ON HEROKU
+https://arcane-beach-63003.herokuapp.com/home
+
 
 ## Installation Instructions
 
