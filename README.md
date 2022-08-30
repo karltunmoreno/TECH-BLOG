@@ -53,6 +53,4 @@ ________________________________________________________________________________
 
 ### This application and website is used for creating and sharing blog posts centered around technology. Allows users to view, edit and delete their posts and view and comment on the posts of others
 
-## Contribution
 
-### KARLTUN MORENO
