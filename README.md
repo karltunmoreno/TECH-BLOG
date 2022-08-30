@@ -49,7 +49,9 @@ ________________________________________________________________________________
 
 ### Use this command to kill the server at any time.
 
-## Usage
+## Usage Comments
+
+Used  HTML routes to render using handlebars. Built a CMS-style Tech Blog with the required stack! On the same note, using MVC as your architectural structure! The way you went about initializing your app as well as loading and navigating through your routes was very clean and readable! You were able to configure your entire back-end optimally and demonstrated all the required routing and DB functionality in the browser on the client-side when navigating through your elements! Deployed application to Heroku, the url is fully functional!  
 
 ### This application and website is used for creating and sharing blog posts centered around technology. Allows users to view, edit and delete their posts and view and comment on the posts of others
 
