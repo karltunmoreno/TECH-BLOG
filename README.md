@@ -1,6 +1,10 @@
 # technology-blog
 
-https://karltunmoreno.github.io/My-Portfolio/assets/images/TechBlog.jpg
+![Ss](https://karltunmoreno.github.io/My-Portfolio/assets/images/TechBlog.jpg)
+
+
+
+
 
 ## Description
 
